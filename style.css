@@ -1,0 +1,15 @@
+/*
+    Theme Name: TimeOut
+    Text Domain: TimeOut
+    Version: 0.02
+    Author: Christopher Rock
+*/
+
+.header{
+    background-color: burlywood;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
