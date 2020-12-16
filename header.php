@@ -13,25 +13,43 @@
 
     <header class="header">
 
-    <?php
-        if(function_exists('the_custom_logo')){
-            $custom_logo_id = get_theme_mod('custom_logo');
-            $logo = wp_get_attachment_image_src($custom_logo_id);
-        }
-    ?>
-        <img class="logo" src='<?php echo $logo[0] ?>'>
-        <p><?php the_title(); ?></p>
-        <p>hi</p>
+    
+        
 
-        <?php
-            wp_nav_menu(
-                array(
-                    'menu' => 'primary',
-                    'container' => '',
-                    'theme_location' => 'primary',
-                    'items_wrap' => '<ul>%3$s</ul>'
-                )
-            );
-        ?>
+        <nav class="topnav">
+            <div class="container">
+
+            <div class="row align-items-center">
+            
+                <div class="col col-2">
+                    <?php
+                    if(function_exists('the_custom_logo')){
+                        $custom_logo_id = get_theme_mod('custom_logo');
+                        $logo = wp_get_attachment_image_src($custom_logo_id);
+                    }
+                    ?>
+                    <!-- <img class="logo navbar-brand" src='<?php echo $logo[0] ?>'> -->
+                    <h1>TimeOut</h1>
+                </div>
+                <div class="col">
+                    <?php
+                        wp_nav_menu(
+                            array(
+                                'menu' => 'primary',
+                                'container' => '',
+                                'theme_location' => 'primary',
+                                'items_wrap' => '<ul class="nav ">%3$s</ul>'
+                            )
+                        );
+                    ?>
+                </div>
+            
+            </div>
+                
+                
+                
+            </div>
+        </nav>
+        
     </header>
     

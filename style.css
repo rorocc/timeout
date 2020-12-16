@@ -5,11 +5,86 @@
     Author: Christopher Rock
 */
 
-.header{
-    background-color: burlywood;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@font-face{font-family:'Tahu'; src: url('http://localhost:8080/wordpress/wp-content/themes/timeout/assets/fonts/Tahu.ttf') format('truetype');  font-weight: normal; font-style: normal;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    overflow: hidden;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+}
+
+
+nav li {
+    
+    list-style: none;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 0 0 30px;
+}
+
+.callToAction{
+    background-color: #FFF48F;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .logo {
     width: 100px;
     height: 100px;
+}
+
+.frontpage-section1{
+    align-items: center;
+    height: 70%;
+    background: rgb(184,237,255);
+    background: linear-gradient(0deg, rgba(184,237,255,1) 70%, rgba(255,255,255,0) 100%);
+}
+
+.frontpage-section1-content{
+    text-align: center;
+    line-height: 3vh;
+}
+
+.frontpage-section1-content .row{
+    padding: 3vh;
+}
+
+.frontpage-section1-content h2{
+    font-weight: lighter;
+}
+
+.frontpage-section1-content h1{
+    font-family: 'Tahu', Fallback, sans-serif;
+    font-size: 12vh;
+}
+
+.frontpage-section1-content .callToAction{
+    padding: 20px;
+}
+
+.frontpage-section2{
+
 }
