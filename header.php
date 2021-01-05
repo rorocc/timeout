@@ -16,7 +16,7 @@
     
         
 
-        <nav class="topnav">
+        <nav class="topnav" id="myTopnav">
             <div class="container">
 
             <div class="row align-items-center">
@@ -29,7 +29,7 @@
                     }
                     ?>
                     <!-- <img class="logo navbar-brand" src='<?php echo $logo[0] ?>'> -->
-                    <h1>TimeOut</h1>
+                    <h1 class="nav-logo">TimeOut</h1>
                 </div>
                 <div class="col">
                     <?php
@@ -42,6 +42,9 @@
                             )
                         );
                     ?>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             
             </div>
