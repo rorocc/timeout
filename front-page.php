@@ -38,14 +38,14 @@
 <section class="frontpage-section2">
     
     <div class="row align-items-center">
-        <div class="col">
+        <div class="col-sm-10 col-md-10 col-lg-6">
             <div class="video-container">
                 <video controls>
                     <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
-        <div class="col">
+        <div class="col col-sm-12 col-md-8 col-lg-6">
             <div class="video-description container ">
                 <h1>Lorem Ipsum Dolor Sit</h1>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
