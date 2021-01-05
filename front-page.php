@@ -37,6 +37,24 @@
 
 <section class="frontpage-section2">
     
+    <div class="row align-items-center">
+        <div class="col">
+            <div class="video-container">
+                <video controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="col">
+            <div class="video-description container ">
+                <h1>Lorem Ipsum Dolor Sit</h1>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
+            </div>
+        </div>
+
+    </div>
+
     
 </section> <!-- FRONTPAGE-SECTION2 -->
   
